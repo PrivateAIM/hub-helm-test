@@ -43,7 +43,7 @@ jobs:
         if: steps.release.outputs.releases_created == 'true'
         with:
           commit: TRUE
-          push: FALSE
+          push: PUSH
           directory: helm
           version: ${{ steps.release.outputs['major'] }}.${{ steps.release.outputs['minor'] }}.${{ steps.release.outputs['patch'] }}
 
