@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/PrivateAIM/hub-helm-test/compare/v1.7.0...v1.7.1) (2025-03-24)
+
+
+### Bug Fixes
+
+* selecting charts directory ([6ca64e5](https://github.com/PrivateAIM/hub-helm-test/commit/6ca64e50e2cf96b445c7db7c701c2cd4fe9e1999))
+
 ## [1.7.0](https://github.com/PrivateAIM/hub-helm-test/compare/v1.6.0...v1.7.0) (2025-03-24)
 
 
