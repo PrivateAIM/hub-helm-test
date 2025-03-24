@@ -13,3 +13,5 @@ reports
 db.sqlite
 .env
 cache
+.helm-index
+.helm-packages
