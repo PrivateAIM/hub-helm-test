@@ -42,6 +42,7 @@ jobs:
       - uses: tada5hi/hevi-action@v1.2
         if: steps.release.outputs.releases_created == 'true'
         with:
+          directory: helm
           versionize: true
           versionize_version: ${{ steps.release.outputs['major'] }}.${{ steps.release.outputs['minor'] }}.${{ steps.release.outputs['patch'] }}
           package: true
